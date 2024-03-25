@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Country Capital</title>
+<style>
+  /* Custom CSS for the capital */
+  .capital {
+    display: none;
+    color: blue;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  /* Show capital when the corresponding checkbox is checked */
+  #USA:checked ~ #capital-USA,
+  #UK:checked ~ #capital-UK,
+  #France:checked ~ #capital-France,
+  #Germany:checked ~ #capital-Germany,
+  #Japan:checked ~ #capital-Japan {
+    display: inline;
+  }
+</style>
+</head>
+<body>
+
+<h2>Select a Country:</h2>
+
+<input type="radio" id="USA" name="country" value="USA">
+<label for="USA">United States</label><br>
+
+<input type="radio" id="UK" name="country" value="UK">
+<label for="UK">United Kingdom</label><br>
+
+<input type="radio" id="France" name="country" value="France">
+<label for="France">France</label><br>
+
+<input type="radio" id="Germany" name="country" value="Germany">
+<label for="Germany">Germany</label><br>
+
+<input type="radio" id="Japan" name="country" value="Japan">
+<label for="Japan">Japan</label><br>
+
+<p>Capital:
+  <span id="capital-USA" class="capital">Washington, D.C.</span>
+  <span id="capital-UK" class="capital">London</span>
+  <span id="capital-France" class="capital">Paris</span>
+  <span id="capital-Germany" class="capital">Berlin</span>
+  <span id="capital-Japan" class="capital">Tokyo</span>
+</p>
+
+</body>
+</html>
