@@ -20,3 +20,7 @@ Please ensure your pull request follows the repository's guidelines and includes
 Contact :-
 
 If you have any questions or suggestions regarding this repository, feel free to contact us at rairoshni2005@gmail.com.
+
+Here is the link for my HTML LAB MANUAL pdf
+👇🏻👇🏻👇🏻
+https://heyzine.com/flip-book/c61e061ca4.html
