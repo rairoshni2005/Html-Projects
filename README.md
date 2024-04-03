@@ -1,6 +1,7 @@
 # Sem-2_Sprint-1_Html_Projects
 
-Welcome to the HTML Projects Repository !!!
+Welcome to the HTML Projects Repository !!
+
 
 This repository contains a collection of HTML projects that showcase various web development concepts, techniques, and examples. Feel free to explore and use these projects for learning purposes or as a reference for your own projects.
 
